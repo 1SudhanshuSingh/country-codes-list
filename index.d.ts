@@ -54,7 +54,7 @@ declare module 'country-codes-list' {
   ): string[];
 
   export function customList(
-    key?: CountryProperty,
+    key?: CountryProperty | string,
     label?: string,
     settings?: CustomArraySettings,
   ): { [CountryProperty]: string };
